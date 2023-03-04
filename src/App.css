@@ -376,6 +376,7 @@ span {
     box-shadow: 0 0 16px -1px rgb(0 0 0 / 75%);
     display: block;
     transition: .1s ease-in-out;
+    z-index: 99;
 }
 
 .itemCount {
