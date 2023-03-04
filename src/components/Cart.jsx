@@ -3,7 +3,7 @@ import { ShoppingCart } from "@mui/icons-material";
 
 const Cart = () => {
   return (
-    <section className="stickyHeader">
+    <section className="stickyHeader prevent-select">
       Cart
       <ShoppingCart />
       <div className="itemCount">

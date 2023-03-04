@@ -397,7 +397,7 @@ span {
 #sideBar {
     width: 220px;
     height: auto;
-    background: #fff;
+    background: #fdd570a5;
     z-index: 90;
     position: fixed;
     top: 0;
@@ -412,4 +412,13 @@ span {
 
 .contentWrapper {
     height: 9000px;
+}
+
+.prevent-select {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
