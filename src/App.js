@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+
 import Home from "./pages/Home";
-import Helmet from "./components/Helmet";
+import Products from "./pages/Products";
 
 const App = () => {
   return (
-    <div>
-      <Helmet />
-      <Home />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/:category" element={<Products />} />
+    </Routes>
   );
 };
 
