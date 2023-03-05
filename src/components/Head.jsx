@@ -1,4 +1,5 @@
 import React from "react";
+import { Search } from "@mui/icons-material";
 
 const Head = () => {
   return (
@@ -20,12 +21,7 @@ const Head = () => {
                   </td>
                   <td className="buttonCell">
                     <button type="submit" className="button2">
-                      <svg
-                        className="svgSearch"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 100 100"
-                      ></svg>
+                      <Search />
                     </button>
                   </td>
                 </tr>
