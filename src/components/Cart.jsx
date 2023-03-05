@@ -6,7 +6,7 @@ const Cart = () => {
   const [isOpen, setOpen] = useState(false);
 
   const toggleOpen = () => {
-    document.getElementById("cartBar").style.width = `220px`;
+    document.getElementById("cartBar").style.width = `200px`;
   };
 
   const toggleClose = () => {
@@ -22,8 +22,8 @@ const Cart = () => {
     }
   };
   return (
-    <div id="cartBar">
-      <section className="stickyHeader prevent-select">
+    <div className="cartWrapper">
+      <div className="stickyHeader prevent-select">
         <button className="cartBtn" onClick={toggleMenu}>
           Cart
           <ShoppingCart />
@@ -34,7 +34,8 @@ const Cart = () => {
             <span></span>
           </p>
         </div>
-      </section>
+      </div>
+      <section id="cartBar">what is in here</section>
     </div>
   );
 };

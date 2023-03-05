@@ -365,6 +365,22 @@ span {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLywYeJ8VBlKoWdffNV0Abvbd9Dr3KvxU52g&usqp=CAU);
 }
 
+.cartWrapper {
+    overflow: hidden;
+    height: 100%;
+}
+
+#cartBar {
+    width: 0px;
+    transition: 0.5s;
+    user-select: none;
+    padding: 1em 0 0 2.5em;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:lightblue;
+    }
+
 .stickyHeader {
     opacity: .7;
     position: fixed;
@@ -376,7 +392,7 @@ span {
     box-shadow: 0 0 16px -1px rgb(0 0 0 / 75%);
     display: block;
     transition: .1s ease-in-out;
-    z-index: 99;
+    /* z-index: 99; */
 }
 
 .cartBtn {
@@ -385,14 +401,6 @@ span {
     transition: all 100ms ease-in-out;
 }
 
-#cartBar {
-    width: 0px;
-    transition: 0.5s;
-    user-select: none;
-    padding: 1em 0 0 2.5em;
-    margin: 0;
-    padding: 0;
-    }
 
 
 .itemCount {
