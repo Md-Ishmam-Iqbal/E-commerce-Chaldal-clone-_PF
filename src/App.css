@@ -131,6 +131,7 @@ span {
 
 
 .componentsContainer {
+    display: flex;
     position: relative;
 }
 
@@ -366,7 +367,6 @@ span {
 
 .stickyHeader {
     opacity: .7;
-    cursor: pointer;
     position: fixed;
     width: 65px;
     height: 75px;
@@ -378,6 +378,22 @@ span {
     transition: .1s ease-in-out;
     z-index: 99;
 }
+
+.cartBtn {
+    cursor: pointer;
+    width: 100%;
+    transition: all 100ms ease-in-out;
+}
+
+#cartBar {
+    width: 0px;
+    transition: 0.5s;
+    user-select: none;
+    padding: 1em 0 0 2.5em;
+    margin: 0;
+    padding: 0;
+    }
+
 
 .itemCount {
     height: 50px;
@@ -396,14 +412,14 @@ span {
 }
 
 #sideBar {
-    width: 220px;
+    width: 0px;
     height: auto;
     background: #fdd570a5;
     z-index: 90;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
-    transform: translateX(-20em);
+    /* transform: translateX(-20em); */
     transition: 0.5s;
     user-select: none;
     padding: 1em 0 0 2.5em;
@@ -423,3 +439,8 @@ span {
     user-select: none;
     /* Standard syntax */
 }
+
+#everythingElseWrapper {
+    width: 100%;
+}
+

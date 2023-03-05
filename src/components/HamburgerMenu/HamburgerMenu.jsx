@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import SideBar from "../SideBar";
 import styled from "styled-components";
 
 const HamburgerMenuContainer = styled.div`
@@ -32,16 +33,11 @@ const HamburgerMenu = () => {
   const [isOpen, setOpen] = useState(false);
 
   const toggleOpen = () => {
-    document.getElementById("sideBar").style.transform = `translateX(0em)`;
-    document.getElementById("everythingElseWrapper").style.marginLeft = `220px`;
-    document.getElementById(
-      "everythingElseWrapper"
-    ).style.transition = `all 300ms ease-in-out`;
+    document.getElementById("sideBar").style.width = `220px`;
   };
 
   const toggleClose = () => {
-    document.getElementById("sideBar").style.transform = `translateX(-20em)`;
-    document.getElementById("everythingElseWrapper").style.marginLeft = `0px`;
+    document.getElementById("sideBar").style.width = `0px`;
   };
 
   const toggleMenu = () => {
