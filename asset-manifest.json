@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/E-commerce-Chaldal-clone-_PF/static/css/main.8b8d46a7.css",
-    "main.js": "/E-commerce-Chaldal-clone-_PF/static/js/main.41b94cfc.js",
+    "main.css": "/E-commerce-Chaldal-clone-_PF/static/css/main.91666585.css",
+    "main.js": "/E-commerce-Chaldal-clone-_PF/static/js/main.0561a623.js",
     "static/media/b.jpeg": "/E-commerce-Chaldal-clone-_PF/static/media/b.968f511702cf92dd90c7.jpeg",
     "index.html": "/E-commerce-Chaldal-clone-_PF/index.html",
-    "main.8b8d46a7.css.map": "/E-commerce-Chaldal-clone-_PF/static/css/main.8b8d46a7.css.map",
-    "main.41b94cfc.js.map": "/E-commerce-Chaldal-clone-_PF/static/js/main.41b94cfc.js.map"
+    "main.91666585.css.map": "/E-commerce-Chaldal-clone-_PF/static/css/main.91666585.css.map",
+    "main.0561a623.js.map": "/E-commerce-Chaldal-clone-_PF/static/js/main.0561a623.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b8d46a7.css",
-    "static/js/main.41b94cfc.js"
+    "static/css/main.91666585.css",
+    "static/js/main.0561a623.js"
   ]
 }
